@@ -23,7 +23,33 @@ const Footer = () => {
 
   const isMobile = useMediaQuery("(max-width: 700px)");
 
-  return null;
+  return (
+    <MFooter height="auto" py={6} px="xl" zIndex={100}>
+      <SimpleGrid cols={isMobile ? 2 : 3} m={0}>
+        {!isMobile && <div></div>}
+        <Text size="xs" color="dimmed" align={isMobile ? "left" : "center"}>
+            capela-coyral.fr
+        </Text>
+        <div>
+          {config.get("legal.enabled") && (
+            <Text size="xs" color="dimmed" align="right">
+              {hasImprint && (
+                <Anchor size="xs" href={imprintUrl}>
+                  {t("imprint.title")}
+                </Anchor>
+              )}
+              {hasImprint && hasPrivacy && " • "}
+              {hasPrivacy && (
+                <Anchor size="xs" href={privacyUrl}>
+                  {t("privacy.title")}
+                </Anchor>
+              )}
+            </Text>
+          )}
+        </div>
+      </SimpleGrid>
+    </MFooter>
+  );
 };
 
 export default Footer;
