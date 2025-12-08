@@ -23,13 +23,13 @@ export default {
   "home.button.source": "Code source",
   // END /
   // /auth/signin
-  "signin.title": "Content de vous revoir",
-  "signin.description": "Vous n'avez pas encore de compte ?",
+  "signin.title": "Bienvenue :)",
+  "signin.description": "Tu n'as pas encore de compte ?",
   "signin.button.signup": "S’inscrire",
-  "signin.input.email-or-username": "Courriel ou nom d'utilisateur",
-  "signin.input.email-or-username.placeholder": "Votre courriel ou nom d'utilisateur",
+  "signin.input.email-or-username": "Nom d'utilisateur",
+  "signin.input.email-or-username.placeholder": "Ton nom d'utilisateur",
   "signin.input.password": "Mot de passe",
-  "signin.input.password.placeholder": "Votre mot de passe",
+  "signin.input.password.placeholder": "Ton mot de passe",
   "signin.button.submit": "Se connecter",
   "signIn.notify.totp-required.title": "Une authentification à deux facteurs est requise",
   "signIn.notify.totp-required.description": "Veuillez entrer votre code d'authentification à deux facteurs",
@@ -43,12 +43,12 @@ export default {
   // END /auth/signin
   // /auth/signup
   "signup.title": "Créer un compte",
-  "signup.description": "Vous avez déjà un compte ?",
+  "signup.description": "Tu as déjà un compte ?",
   "signup.button.signin": "Se connecter",
   "signup.input.username": "Nom d'utilisateur",
-  "signup.input.username.placeholder": "Votre nom d'utilisateur",
+  "signup.input.username.placeholder": "Ton nom d'utilisateur",
   "signup.input.email": "Adresse email",
-  "signup.input.email.placeholder": "Votre courriel",
+  "signup.input.email.placeholder": "Ton email",
   "signup.button.submit": "Commençons",
   // END /auth/signup
   // /auth/totp
@@ -57,13 +57,13 @@ export default {
   // END /auth/totp
   // /auth/reset-password
   "resetPassword.title": "Mot de passe oublié ?",
-  "resetPassword.description": "Saisissez votre courriel pour réinitialiser votre mot de passe.",
-  "resetPassword.notify.success": "Un message avec un lien pour réinitialiser votre mot de passe a été envoyé si le courriel fourni existe.",
+  "resetPassword.description": "Saisis ton email pour réinitialiser ton mot de passe.",
+  "resetPassword.notify.success": "Un message avec un lien pour réinitialiser ton mot de passe a été envoyé si l'email fourni existe.",
   "resetPassword.button.back": "Retour à la page de connexion",
   "resetPassword.text.resetPassword": "Réinitialiser le mot de passe",
-  "resetPassword.text.enterNewPassword": "Saisissez votre nouveau mot de passe",
+  "resetPassword.text.enterNewPassword": "Saisis ton nouveau mot de passe",
   "resetPassword.input.password": "Nouveau mot de passe",
-  "resetPassword.notify.passwordReset": "Votre mot de passe a été réinitialisé avec succès.",
+  "resetPassword.notify.passwordReset": "Ton mot de passe a bien été réinitialisé.",
   // /account
   "account.title": "Mon compte",
   "account.card.info.title": "Détails du compte",
