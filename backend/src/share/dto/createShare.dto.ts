@@ -25,7 +25,7 @@ export class CreateShareDTO {
   @IsString()
   expiration: string;
 
-  @MaxLength(512)
+  @MaxLength(2048)
   @IsOptional()
   description: string;
 
