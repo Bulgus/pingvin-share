@@ -373,6 +373,7 @@ const CreateUploadModalBody = ({
                     placeholder={t(
                       "upload.modal.accordion.name-and-description.description.placeholder",
                     )}
+                    maxLength={2048}
                     {...form.getInputProps("description")}
                   />
                 </Stack>
@@ -564,6 +565,7 @@ const SimplifiedCreateUploadModalModal = ({
               placeholder={t(
                 "upload.modal.accordion.name-and-description.description.placeholder",
               )}
+              maxLength={2048}
               {...form.getInputProps("description")}
             />
           </Stack>
