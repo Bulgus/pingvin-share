@@ -2,8 +2,6 @@ services:
   pingvin-share:
     image: stonith404/pingvin-share # or ghcr.io/stonith404/pingvin-share
     restart: unless-stopped
-    ports:
-      - 3000:3000
     environment:
       - TRUST_PROXY=false # Set to true if a reverse proxy is in front of the container
     volumes:
