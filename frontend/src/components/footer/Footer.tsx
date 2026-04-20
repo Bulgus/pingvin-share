@@ -13,13 +13,6 @@ const Footer = () => {
     config.get("legal.privacyPolicyUrl") ||
     config.get("legal.privacyPolicyText")
   );
-  const imprintUrl =
-    (!config.get("legal.imprintText") && config.get("legal.imprintUrl")) ||
-    "/imprint";
-  const privacyUrl =
-    (!config.get("legal.privacyPolicyText") &&
-      config.get("legal.privacyPolicyUrl")) ||
-    "/privacy";
 
   const isMobile = useMediaQuery("(max-width: 700px)");
 
