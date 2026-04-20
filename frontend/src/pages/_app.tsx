@@ -146,7 +146,6 @@ function App({ Component, pageProps }: AppProps) {
                             <Component {...pageProps} />
                           </Container>
                         </div>
-                        <Footer />
                       </Stack>
                     </>
                   )}
